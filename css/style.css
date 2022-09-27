@@ -28,10 +28,6 @@ body {
     background-color: var(--dark-grey);
 }
 
-header{
-    z-index: 999;
-}
-
 /* ! MAIN */
 #hero {
     padding-top: 100px;
@@ -50,51 +46,9 @@ header {
     height: 90px;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
-.icon-hero::before{
-    content: '';
-    display: block;
-    width: 100px;
-    height: 0;
-    border: 2px solid var(--white);
-    border-radius: 20px;
-    margin: 0.5rem;
-
-}
-
-.icon-hero::after{
-    content: '';
-    display: block;
-    width: 100px;
-    height: 0;
-    border: 2px solid var(--white);
-    border-radius: 20px;
-    margin: 0.5rem;
-
-}
-
-.icon-b::before{
-    content: '';
-    display: block;
-    width: 100px;
-    height: 0;
-    border: 2px solid var(--black);
-    border-radius: 20px;
-    margin: 0.5rem;
-
-}
-
-.icon-b::after{
-    content: '';
-    display: block;
-    width: 100px;
-    height: 0;
-    border: 2px solid var(--black);
-    border-radius: 20px;
-    margin: 0.5rem;
-
-}
 #cards{
     padding: 0;
 }
