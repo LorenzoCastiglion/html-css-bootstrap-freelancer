@@ -46,3 +46,55 @@ header {
     top: 0;
     width: 100%;
 }
+
+
+
+.icon-hero::before{
+    
+    content: '';
+    display: block;
+    width: 100px;
+    height: 0;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    margin: 0.5rem;
+
+}
+
+.icon-hero::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 0;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    margin: 0.5rem;
+
+}
+
+.icon-b::before{
+    
+    content: '';
+    display: block;
+    width: 100px;
+    height: 0;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    margin: 0.5rem;
+
+}
+
+.icon-b::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 0;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    margin: 0.5rem;
+
+}
+
+#cards{
+    padding: 0;
+}
