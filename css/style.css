@@ -98,3 +98,8 @@ header {
 #cards{
     padding: 0;
 }
+
+img{
+    border-radius: 8px;
+    
+}
