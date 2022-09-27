@@ -28,6 +28,10 @@ body {
     background-color: var(--dark-grey);
 }
 
+header{
+    z-index: 999;
+}
+
 /* ! MAIN */
 #hero {
     padding-top: 100px;
@@ -102,4 +106,9 @@ header {
 img{
     border-radius: 8px;
     
+}
+
+
+#send-btn{
+    background-color: var(--green);
 }
