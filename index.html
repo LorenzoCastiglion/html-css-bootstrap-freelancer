@@ -27,13 +27,13 @@
                 <div class="collapse navbar-collapse" id="boot-navbar">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="#portfolio">Portfolio</a>
+                            <a class="nav-link text-white link-success" aria-current="page" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#about">About</a>
+                            <a class="nav-link text-white link-success" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#contact">Contact</a>
+                            <a class="nav-link text-white link-success" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +64,7 @@
             </div>
         </section>
 
-        <section id="portofolio" >
+        <section id="portfolio" >
             <div class=" container-md py-3">
                
 
@@ -82,28 +82,45 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="./img/cabin.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="./img/cake.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="./img/circus.png" class="img-fluid" alt="">
-                    </div>
+                    <div class="row gy-3 ">
+                        
+                        <div class="col-sm-12 col-md-6 col-lg-4 ">
+                            <div class="overlay rounded-3 overflow-hidden position-relative">
+                                <img src="./img/cabin.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
 
+                        <div class="col-sm-12 col-md-6 col-lg-4 ">
+                            <div class="overlay rounded-3 overflow-hidden position-relative">
+                                <img src="./img/cake.png" class="img-fluid" alt="">
+                            </div>  
+                        </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="./img/game.png" class="img-fluid" alt="">
-                    </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 ">
+                            <div class="overlay rounded-3 overflow-hidden position-relative">
+                                <img src="./img/circus.png" class="img-fluid" alt="">
+                            </div>  
+                        </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="./img/safe.png" class="img-fluid" alt="">
-                    </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 ">
+                            <div class="overlay rounded-3 overflow-hidden position-relative">
+                                <img src="./img/game.png" class="img-fluid" alt="">
+                            </div>  
+                        </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="./img/submarine.png" class="img-fluid" alt="">
+                        <div class="col-sm-12 col-md-6 col-lg-4 ">
+                            <div class="overlay rounded-3 overflow-hidden position-relative">
+                                <img src="./img/safe.png" class="img-fluid" alt="">
+                            </div>  
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4 ">
+                            <div class="overlay rounded-3 overflow-hidden position-relative">
+                                <img src="./img/submarine.png" class="img-fluid" alt="">
+                            </div>  
+                        </div>
                     </div>
+                    
 
 
 
@@ -173,30 +190,30 @@
                         <!-- FORM -->
                         <div class="col-8 ">
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control border-start-0 border-end-0 border-top-0 rounded-0 " id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
 
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control border-start-0 border-end-0 border-top-0 rounded-0" id="email" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Email Adress</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">An email is required.</div>
                             </div>
 
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control border-start-0 border-end-0 border-top-0 rounded-0" id="number" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Phone Number</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A phone number is required.</div>
                             </div>
 
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control border-start-0 border-end-0 border-top-0 rounded-0" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
 
-                            <button id="send-btn" type="button" class="btn btn-success">Send</button>
+                            <button id="send-btn" type="button" class="btn btn-light text-white">Send</button>
 
                         </div>
 
@@ -230,20 +247,20 @@
 
                         <div class=" d-flex justify-content-center align-items-center ">
                             
-                            <a class="btn btn-outline-light btn-social rounded-circle mx-1 px-2" href="#">
-                                <i class="fab fa-fw fa-facebook-f"></i>
+                            <a class=" d-flex btn btn-outline-light btn-social rounded-circle mx-1 p-2 " href="#">
+                                <i class="fab fa-fw fa-facebook-f "></i>
                             </a>
 
-                            <a class="btn btn-outline-light btn-social rounded-circle mx-1 px-2" href="#">
-                                <i class="fa-brands fa-google-plus-g"></i>
+                            <a class="d-flex  btn btn-outline-light btn-social rounded-circle mx-1 p-2 " href="#">
+                                <i class="fa-brands fa-google-plus-g w-50 h-50 "></i>
                             </a>
 
-                            <a class="btn btn-outline-light btn-social rounded-circle mx-1 px-2" href="#">
-                                <i class="fa-brands fa-twitter"></i>
+                            <a class=" d-flex btn btn-outline-light btn-social rounded-circle mx-1 p-2 " href="#">
+                                <i class="fa-brands fa-twitter w-50 h-50"></i>
                             </a>
 
-                            <a class="btn btn-outline-light btn-social rounded-circle mx-1 px-2" href="#">
-                                <i class="fab fa-fw fa-linkedin-in"></i>
+                            <a class=" d-flex btn btn-outline-light btn-social rounded-circle mx-1 p-2 " href="#">
+                                <i class="fab fa-fw fa-linkedin-in w-50 h-50"></i>
                             </a>
 
                         </div>
@@ -256,7 +273,7 @@
                         <h3 class="text-uppercase fs-5">
                             About freelancer
                         </h3>
-                        <p class="fw-lighter">Freelance is a free to use, open source Bootstral theme created by <span class="green"> Start Bootstrap</span>.</p>
+                        <p class="fw-lighter">Freelance is a free to use, open source Bootstral theme created by <a href="#" class="green ">Start Bootstrap</a>.</p>
 
                     </div>
             
